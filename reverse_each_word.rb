@@ -1,20 +1,20 @@
-def reverse_each_word(str)
-  newArr = []
-  split = str.split(" ")
-  split.each do |letter|
-    newArr.push(letter.reverse)
-  end
-  newArr.join(" ")
-end
+# def reverse_each_word(str)
+#   newArr = []
+#   split = str.split(" ")
+#   split.each do |letter|
+#     newArr.push(letter.reverse)
+#   end
+#   newArr.join(" ")
+# end
   
-def reverse_each_word_with_collect(str)
-newArr = []
-split = str.split(" ")  
-split.collect do |str|
-  newArr.push(letter.reverse)
-end
-newArr.join(" ")
-end
+# def reverse_each_word_with_collect(str)
+# newArr = []
+# split = str.split(" ")  
+# split.collect do |str|
+#   newArr.push(letter.reverse)
+# end
+# newArr.join(" ")
+# end
   
   
 # describe '#reverse_each_word' do
