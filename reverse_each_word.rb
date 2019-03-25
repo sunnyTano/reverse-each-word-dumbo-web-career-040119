@@ -4,7 +4,7 @@ def reverse_each_word(str)
   split.each do |letter|
     newArr.push(letter.reverse)
   end
-  newArr
+  newArr.join(" ")
 end
   
   
