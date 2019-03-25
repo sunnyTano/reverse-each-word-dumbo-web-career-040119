@@ -10,16 +10,12 @@ end
 def reverse_each_word(str)
 newArr = []
 split = str.split(" ")  
-  
-  
-  
-  cool_nums = [1, 2, 3]
- 
-def change_nums(nums)
-  nums.collect do |x| 
-    x + 1
-  end
+split.collect do |str|
+  newArr.push(letter.reverse)
 end
+newArr.join(" ")
+end
+  
   
 # describe '#reverse_each_word' do
 #   let(:sentence1) { "Hello there, and how are you?" }
