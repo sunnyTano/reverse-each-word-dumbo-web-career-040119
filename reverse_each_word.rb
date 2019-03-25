@@ -7,7 +7,7 @@ def reverse_each_word(str)
   newArr.join(" ")
 end
   
-def reverse_each_collect(str)
+def reverse_each__wordcollect(str)
 arr = []
 split = str.split(" ")  
 split.collect do |letter|
