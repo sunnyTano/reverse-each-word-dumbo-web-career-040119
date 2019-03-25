@@ -7,9 +7,6 @@ def reverse_each_word(str)
   newArr.join(" ")
 end
   
-
-  
-  
 def reverse_each_word_collect(string)
   array = string.split(" ") #turn string into an array
   test_array = []
