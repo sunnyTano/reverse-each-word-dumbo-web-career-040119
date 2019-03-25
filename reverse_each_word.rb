@@ -1,5 +1,6 @@
 def reverse_each_word(str)
-  split = str.split()
+  split = str.split(" ")
+  
   
   
 # describe '#reverse_each_word' do
