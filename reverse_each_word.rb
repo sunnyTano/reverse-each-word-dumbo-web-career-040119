@@ -1,10 +1,10 @@
 def reverse_each_word(str)
-  newWord = str.split(" ")
-  newWord.collect do |letter|
+  newWord = str.split(" ").collect do |letter|
     letter.reverse 
   end
   newWord.join(" ")
 end
+
   
 # describe '#reverse_each_word' do
 #   let(:sentence1) { "Hello there, and how are you?" }
