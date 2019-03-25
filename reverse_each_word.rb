@@ -13,7 +13,7 @@ split = str.split(" ")
 split.collect do |letter|
   arr.push(str.reverse)
 end
-newArr.join(" ")
+arr.join(" ")
 end
   
   
