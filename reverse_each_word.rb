@@ -8,12 +8,12 @@ def reverse_each_word(str)
 end
   
 def reverse_each_word__with_collect(str)
-  array = str.split(" ") #turn string into an array
-  test_array = []
-  array.collect do|string| #iterate over the array
-    test_array << string.reverse #reverse each word in the array
+  arr = []
+  split = str.split(" ")
+  split.collect do|str|
+    arr << string.reverse 
   end
-  test_array.join(" ")
+  arr.join(" ")
 end
 
 
